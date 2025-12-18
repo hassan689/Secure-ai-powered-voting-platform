@@ -2,9 +2,9 @@ require('dotenv').config();
 const sql = require('mssql');
 // Database configuration
 const dbConfig = {
-  user: 'sa',
-  password: 'pubglite123',
-  server: 'DESKTOP-H6KJ4AR\\SQLEXPRESS14',
+  user: '',
+  password: '',
+  server: '',
   database: 'Voting_Management',
   options: {
     encrypt: false,
